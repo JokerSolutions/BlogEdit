@@ -27,7 +27,9 @@ assembly_info:
 build:
   publish_wap: true
   publish_nuget: true
+  include_nuget_references: true
   parallel: true
   verbosity: minimal
 artifacts:
-  - path: BlogEdit\bin\$(platform)\$(configuration)\BlogEdit.exe
+  - path: BlogEdit\bin\$(platform)\$(configuration)\
+  - path: '**\*.dll'
