@@ -21,9 +21,9 @@ before_build:
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
-  assembly_version: '{version}.{platform}'
+  assembly_version: '{version}-{branch}.{platform}'
   assembly_file_version: '{version}.{platform}'
-  assembly_informational_version: '{version}.{platform}'
+  assembly_informational_version: '{version}-{branch}.{platform}'
 build:
   publish_wap: false
   parallel: true
