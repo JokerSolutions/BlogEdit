@@ -5,6 +5,14 @@ Build with C# we intend to create a software that is unobtrusive while editing a
 
 The end product (compiled installer) is NOT going to be free (as in beer) but the source code will be made available to all those interested in helping in this project.
 
+## Project Status
+
+build status
+[![Build status](https://ci.appveyor.com/api/projects/status/s40ayjqtcic1wt6k?svg=true)](https://ci.appveyor.com/project/mitoskalandiel/blogedit)
+
+master branch build status
+[![Build status](https://ci.appveyor.com/api/projects/status/s40ayjqtcic1wt6k/branch/master?svg=true)](https://ci.appveyor.com/project/mitoskalandiel/blogedit/branch/master)
+
 ## Project goals
 In its infancy the software will be concentrating on design over functionality as this is going to be a learning exercise for myself ( [@smeierzubiesen](https://github.com/smeierzubieseb) ) to learn to create WPF applications.
 
