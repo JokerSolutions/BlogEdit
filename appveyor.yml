@@ -31,4 +31,4 @@ assembly_info:
 build:
   publish_wap: false
   parallel: true
-  verbosity: normal
+  verbosity: minimal
