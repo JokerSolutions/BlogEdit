@@ -5,7 +5,6 @@ configuration: Release
 platform:
   - x86
   - x64
-  - ARM
 branches:
   # blacklist
   except:
@@ -20,10 +19,6 @@ matrix:
     - platform: x64
       configuration: Debug
     - platform: x64
-      configuration: Release
-    - platform: ARM
-      configuration: Debug
-    - platform: ARM
       configuration: Release
 before_build:
   appveyor-retry nuget restore
