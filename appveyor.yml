@@ -2,7 +2,10 @@ version: 0.1.{build}
 skip_tags: true
 image: Visual Studio 2017
 configuration: Release
-platform: Any CPU
+platform:
+  - x86
+  - x64
+  - ARM
 branches:
   # blacklist
   except:
@@ -12,12 +15,16 @@ matrix:
   allow_failures:
     - platform: x86
       configuration: Debug
+    - platform: x86
+      configuration: Release
+    - platform: x64
+      configuration: Debug
     - platform: x64
       configuration: Release
-# exclude configuration from the matrix. Works similarly to 'allow_failures' but build not even being started for excluded combination.
-  exclude:
-    - platform: x86
+    - platform: ARM
       configuration: Debug
+    - platform: ARM
+      configuration: Release
 before_build:
   appveyor-retry nuget restore
 assembly_info:
