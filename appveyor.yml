@@ -32,4 +32,3 @@ build:
   verbosity: minimal
 artifacts:
   - path: BlogEdit\bin\$(platform)\$(configuration)\
-  - path: '**\*.dll'
