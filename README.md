@@ -10,6 +10,10 @@ The end product (compiled installer) is NOT going to be free (as in beer) but th
 build status
 [![Build status](https://ci.appveyor.com/api/projects/status/s40ayjqtcic1wt6k?svg=true)](https://ci.appveyor.com/project/mitoskalandiel/blogedit)
 
+dev branch build status
+[![Build status](https://ci.appveyor.com/api/projects/status/s40ayjqtcic1wt6k/branch/dev?svg=true)](https://ci.appveyor.com/project/mitoskalandiel/blogedit/branch/dev)
+
+
 master branch build status
 [![Build status](https://ci.appveyor.com/api/projects/status/s40ayjqtcic1wt6k/branch/master?svg=true)](https://ci.appveyor.com/project/mitoskalandiel/blogedit/branch/master)
 
