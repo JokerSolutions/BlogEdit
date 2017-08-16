@@ -29,4 +29,4 @@ build:
   verbosity: normal
 artifacts:
   - path: BlogEdit\bin\$(platform)\$(configuration)\
-    name: BlogEdit{platform}
+    name: BlogEdit$(platform)
