@@ -3,8 +3,8 @@ skip_tags: true
 image: Visual Studio 2017
 configuration: Release
 platform:
-  - x64
   - x86
+  - x64
 branches:
   # blacklist
   except:
@@ -28,3 +28,5 @@ build:
   publish_wap: false
   parallel: true
   verbosity: minimal
+artifacts:
+  - path: C:\projects\blogedit\BlogEdit\bin\$(platform)\$(configuration)\BlogEdit.exe
