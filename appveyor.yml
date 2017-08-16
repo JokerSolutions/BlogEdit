@@ -29,4 +29,4 @@ build:
   parallel: true
   verbosity: minimal
 artifacts:
-  - path: C:\projects\blogedit\BlogEdit\bin\$(platform)\$(configuration)\BlogEdit.exe
+  - path: BlogEdit\bin\$(platform)\$(configuration)\BlogEdit.exe
