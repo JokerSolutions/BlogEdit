@@ -32,10 +32,10 @@ build:
   parallel: true
   verbosity: normal
 test_script: 
-- cmd:
-  set Platform2=%Platform%
-  if %Platform2%==x86 set Platform2=Win32
-  vstest.console /logger:Appveyor /inIsolation /platform:%Platform% build\bin\%Platform2%\%Configuration%\BlogEdit.Test.dll
+  - cmd:
+    set Platform2=%Platform%
+    if %Platform2%==x86 set Platform2=Win32
+    vstest.console /logger:Appveyor /inIsolation /platform:%Platform% build\bin\%Platform2%\%Configuration%\BlogEdit.Test.dll
 artifacts:
   - path: BlogEdit\bin\$(platform)\$(configuration)\
     name: BlogEdit_$(platform)
