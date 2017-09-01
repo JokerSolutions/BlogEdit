@@ -14,6 +14,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEdit", "BlogEdit\BlogEdit\BlogEdit.csproj", "{85EC2E6A-0C9C-4FBF-981F-437F22EA6959}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEdit.Test", "BlogEdit\BlogEdit.Test\BlogEdit.Test.csproj", "{11B526B4-F742-4C10-8891-9DE7C5B94082}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85EC2E6A-0C9C-4FBF-981F-437F22EA6959} = {85EC2E6A-0C9C-4FBF-981F-437F22EA6959}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
