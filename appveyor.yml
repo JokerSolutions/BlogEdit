@@ -34,7 +34,7 @@ build:
 test_script: 
   - cmd: set Platform2=%Platform%
   - cmd: if %Platform2%==x86 set Platform2=Win32
-  - cmd: vstest.console /logger:Appveyor /inIsolation /platform:$Platform bin\$Configuration\BlogEdit.Test.dll
+  - cmd: vstest.console /logger:Appveyor /inIsolation /platform:%Platform% bin\%Configuration%\BlogEdit.Test.dll
 artifacts:
   - path: BlogEdit\bin\$(platform)\$(configuration)\
     name: BlogEdit_$(platform)
