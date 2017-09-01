@@ -24,14 +24,9 @@ assembly_info:
   assembly_version: '{version}'
   assembly_file_version: '{version}'
   assembly_informational_version: '{version}'
-test_script:
-  - cmd: set Platform2=%Platform%
-  - cmd: if %Platform2%==x86 set Platform2=Win32
-  - cmd: vstest.console /logger:Appveyor /inIsolation /ListSettingsProviders /ListExecutors /ListDiscoverers /ListTests /platform:%Platform% BlogEdit\BlogEdit.Test\bin\%platform%\%configuration%\BlogEdit.Test.dll
-  #- cmd: vstest.console /logger:Appveyor /inIsolation /platform:%Platform% \BlogEdit\BlogEdit.Test\bin\%configuration%\BlogEdit.Test.dll
 build:
   parallel: true
   verbosity: normal
 artifacts:
-  - path: BlogEdit\BlogEdit\bin\$(platform)\$(configuration)\
+  - path: BlogEdit\bin\$(platform)\$(configuration)\
     name: BlogEdit_$(platform)
