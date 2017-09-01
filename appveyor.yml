@@ -25,7 +25,7 @@ assembly_info:
   assembly_file_version: '{version}'
   assembly_informational_version: '{version}'
 test_script:
-  - cmd: cd BlogEdit\bin\
+  - cmd: cd BlogEdit
   - cmd: dir
   - cmd: set Platform2=%Platform%
   - cmd: if %Platform2%==x86 set Platform2=Win32
