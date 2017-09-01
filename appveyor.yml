@@ -25,8 +25,8 @@ assembly_info:
   assembly_file_version: '{version}'
   assembly_informational_version: '{version}'
 test_script:
-  - cmd: cd BlogEdit
-  - cmd: tree
+  - cmd: cd BlogEdit\BlogEdit.Test\bin\%Configuration%\
+  - cmd: dir
   - cmd: set Platform2=%Platform%
   - cmd: if %Platform2%==x86 set Platform2=Win32
   - cmd: vstest.console /logger:Appveyor /inIsolation /platform:%Platform% BlogEdit\BlogEdit.Test\bin\%Configuration%\BlogEdit.Test.dll
