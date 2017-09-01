@@ -6,12 +6,12 @@ namespace BlogEdit.Test
     [TestClass]
     public class MainViewModelTest : TestBase
     {
-        [TestMethod]
+        [TestMethod, TestCategory("MainViewModel")]
         public void Constructor_Pass_Test()
         {
         }
 
-        [TestMethod]
+        [TestMethod, TestCategory("MainViewModel")]
         public void Constructor_Fail_Test()
         {
             Assert.Fail();

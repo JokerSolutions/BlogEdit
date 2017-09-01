@@ -27,6 +27,9 @@ assembly_info:
 build:
   parallel: true
   verbosity: normal
+test:
+  assemblies:
+    - '**\*.Test.dll'
 artifacts:
   - path: BlogEdit\bin\$(platform)\$(configuration)\
     name: BlogEdit_$(platform)
