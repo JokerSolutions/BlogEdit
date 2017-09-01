@@ -29,10 +29,11 @@ test_script:
   - cmd: tree /F /A
   - cmd: set Platform2=%Platform%
   - cmd: if %Platform2%==x86 set Platform2=Win32
-  - cmd: vstest.console /logger:Appveyor /inIsolation /platform:%Platform% C:\projects\blogedit\BlogEdit\BlogEdit.Test\bin\%configuration%\BlogEdit.Test.dll
+  - cmd: vstest.console /logger:Appveyor /platform:%Platform% BlogEdit\BlogEdit.Test\bin\%configuration%\BlogEdit.Test.dll
+  #- cmd: vstest.console /logger:Appveyor /inIsolation /platform:%Platform% \BlogEdit\BlogEdit.Test\bin\%configuration%\BlogEdit.Test.dll
 build:
   parallel: true
   verbosity: normal
 artifacts:
-  - path: BlogEdit\bin\$(platform)\$(configuration)\
+  - path: BlogEdit\BlogEdit\bin\$(platform)\$(configuration)\
     name: BlogEdit_$(platform)
