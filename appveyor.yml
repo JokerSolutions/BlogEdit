@@ -27,7 +27,7 @@ assembly_info:
 test_script:
   - cmd: set Platform2=%Platform%
   - cmd: if %Platform2%==x86 set Platform2=Win32
-  - cmd: vstest.console /logger:Appveyor /ListDiscoverers /ListExecutors /ListTests /platform:%Platform% BlogEdit\BlogEdit.Test\bin\%configuration%\BlogEdit.Test.dll
+  - cmd: vstest.console /logger:Appveyor /ListTests /platform:%Platform% BlogEdit\BlogEdit.Test\bin\%platform%\%configuration%\BlogEdit.Test.dll
   #- cmd: vstest.console /logger:Appveyor /inIsolation /platform:%Platform% \BlogEdit\BlogEdit.Test\bin\%configuration%\BlogEdit.Test.dll
 build:
   parallel: true
