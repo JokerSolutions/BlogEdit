@@ -28,4 +28,4 @@ build:
   verbosity: normal
 artifacts:
   - path: BlogEdit\bin\$(platform)\$(configuration)\
-    name: BlogEdit$(platform)_$(branch)($(build))
+    name: BlogEdit$(platform)_$(appveyor_repo_branch)($(appveyour_build_number))
