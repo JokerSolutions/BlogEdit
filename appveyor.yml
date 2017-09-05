@@ -3,8 +3,8 @@ skip_tags: true
 image: Visual Studio 2017
 configuration: Release
 platform:
-  - x86
-  - x64
+  - AnyCPU
+#  - x64
 branches:
   # blacklist
   except:
@@ -12,10 +12,10 @@ branches:
 matrix:
   fast_finish: true     # set this flag to immediately finish build once one of the jobs fails.
   allow_failures:
-    - platform: x86
+    - platform: AnyCPU
       configuration: Release
-    - platform: x64
-      configuration: Release
+#    - platform: x64
+#      configuration: Release
 before_build:
   appveyor-retry nuget restore
 assembly_info:
@@ -29,4 +29,5 @@ build:
   verbosity: normal
 artifacts:
   - path: BlogEdit\bin\$(platform)\$(configuration)\
-    name: BlogEdit_$(platform)
+#    name: BlogEdit_$(platform)
+    name: BlogEdit_$(build)($(branch))
