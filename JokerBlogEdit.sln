@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CB0316C-95B1-4214-99F4-233221B783F7}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,30 +11,36 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEdit", "BlogEdit\BlogEdit.csproj", "{39782F30-26A0-445E-8F43-F313A93E9434}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEdit.UWP", "BlogEdit.UWP\BlogEdit.UWP.csproj", "{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
-		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Debug|x64.ActiveCfg = Debug|x64
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Debug|x64.Build.0 = Debug|x64
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Debug|x86.ActiveCfg = Debug|x86
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Debug|x86.Build.0 = Debug|x86
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Release|Any CPU.Build.0 = Release|Any CPU
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Release|x64.ActiveCfg = Release|x64
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Release|x64.Build.0 = Release|x64
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Release|x86.ActiveCfg = Release|x86
-		{39782F30-26A0-445E-8F43-F313A93E9434}.Release|x86.Build.0 = Release|x86
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|ARM.ActiveCfg = Debug|ARM
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|ARM.Build.0 = Debug|ARM
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|ARM.Deploy.0 = Debug|ARM
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|x64.ActiveCfg = Debug|x64
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|x64.Build.0 = Debug|x64
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|x64.Deploy.0 = Debug|x64
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|x86.ActiveCfg = Debug|x86
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|x86.Build.0 = Debug|x86
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Debug|x86.Deploy.0 = Debug|x86
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|ARM.ActiveCfg = Release|ARM
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|ARM.Build.0 = Release|ARM
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|ARM.Deploy.0 = Release|ARM
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|x64.ActiveCfg = Release|x64
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|x64.Build.0 = Release|x64
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|x64.Deploy.0 = Release|x64
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|x86.ActiveCfg = Release|x86
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|x86.Build.0 = Release|x86
+		{64C00E36-CB9C-4BEA-9D5C-801E60FF7469}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

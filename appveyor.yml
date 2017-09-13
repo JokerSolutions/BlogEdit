@@ -28,5 +28,5 @@ build:
   parallel: true
   verbosity: normal
 artifacts:
-  - path: BlogEdit\bin\$(platform)\$(configuration)\
+  - path: BlogEdit.UWP\bin\$(platform)\$(configuration)\
     name: BlogEdit$(platform)_$(appveyor_build_version)
