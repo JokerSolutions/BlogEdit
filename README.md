@@ -17,6 +17,9 @@ dev branch build status
 master branch build status
 [![Build status](https://ci.appveyor.com/api/projects/status/s40ayjqtcic1wt6k/branch/master?svg=true)](https://ci.appveyor.com/project/mitoskalandiel/blogedit/branch/master)
 
+Code Quality and Coverage (not using testing yet, so only code quality is evaluated)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ece75240824d43dcab7c6661bbc09176)](https://www.codacy.com/app/mitoskalandiel/BlogEdit?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JokerSolutions/BlogEdit&amp;utm_campaign=Badge_Grade)
+
 ## Project goals
 In its infancy the software will be concentrating on design over functionality as this is going to be a learning exercise for myself ( [@smeierzubiesen](https://github.com/smeierzubieseb) ) to learn to create WPF applications.
 
