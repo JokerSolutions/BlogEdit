@@ -18,9 +18,9 @@ email: smzb@mitos-kalandiel.me
 description: >- # this means to ignore newlines until "baseurl:"
   Joker Solutions BlogEdit is intended to be an offline BlogEditor
   for Wordpress based sites. Built upon material design paradigms
-  using .NET C# this is a first effort of myself.
-baseurl: "/BlogEdit" # the subpath of your site, e.g. /blog
-url: "https://jokersolutions.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  using DotNET C Sharp this is a first effort from myself.
+baseurl: "BlogEdit" # the subpath of your site, e.g. /blog
+url: "https://jokersolutions.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: smeierzubiesen
 github_username:  JokerSolutions
 
