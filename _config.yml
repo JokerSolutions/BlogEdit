@@ -18,8 +18,8 @@ email: smzb@mitos-kalandiel.me
 description: >- # this means to ignore newlines until "baseurl:"
   JokerSolutions BlogEdit is intended to be a .NET blog editor
   built upon material design paradigms, using up-to-date technologies
-baseurl: "/BlogEdit" # the subpath of your site, e.g. /blog
-url: "https://jokersolutions.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: smeierzubiesen	
 github_username:  jokersolutions
 
