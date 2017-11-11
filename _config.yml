@@ -25,7 +25,9 @@ github_username:  jokersolutions
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: materialize-sass
+sass:
+  style: compressed
 plugins:
   - jekyll-feed
 
