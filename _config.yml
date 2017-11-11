@@ -13,21 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: JokerSolutions BlogEdit
-email: smzb@mitos-kalandiel.me
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Joker Solutions BlogEdit is intended to be an offline BlogEditor
-  for Wordpress based sites. Built upon material design paradigms
-  using DotNET C Sharp this is a first effort from myself.
-baseurl: "BlogEdit" # the subpath of your site, e.g. /blog
-url: "https://jokersolutions.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: smeierzubiesen
-github_username:  JokerSolutions
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-#theme: minima
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
