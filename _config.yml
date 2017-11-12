@@ -1,65 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Joker Solutions - BlogEdit
-email: smzb@mitos-kalandiel.me
-description: >- # this means to ignore newlines until "baseurl:"
-  Joker Solutions BlogEdit : a blog editor for the 21st century
-tagline: JokerSolutions - BlogEdit
-baseurl: "/BlogEdit" # the subpath of your site, e.g. /blog
-url: "https://jokersolutions.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
-twitter_username: smeierzubiesen
-github_username:  jokersolutions
+title: Paper Theme
+description: > # this means to ignore newlines until "baseurl:"
+  A gentle theme for Jekyll utilising material design.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
 
 # Build settings
 markdown: kramdown
-theme: 'blue-pink'
-
-plugins:
-  - jekyll-feed
-
-paginate: 5
+paginate: 5 # pagination based on number of posts
 paginate_path: "page/:num"
 highlighter: pygments
+gems: [jekyll-paginate, jekyll-coffeescript]
 
-author: Sebastian Meier zu Biesen
-bio: A German Scotsman DevOps specialist
-#disqus: (disqus shortname)
+# comments
+disqus: # add disqus shortname here
 
-gems:
-  - jekyll-paginate
-  - jekyll-coffeescript
+# author info
+# add your appropriate info here
+author: # your name
+bio:    # your bio
+email:
+email_md5: # md5 hash of your email
+twitter_username:
+github_username:
 
+# Theming options
+# These settings are mandatory.
+theme:              'blue-pink'
+# drawer theming
 drawer:
-  text_color: 'grey-600'
-  header_color: 'blue-500'
+  text_color:       'grey-600'
+  header_color:     'blue-500'
   navigation_color: 'grey-200'
-
+# footer theming
 footer:
   text_color: 'blue-grey-200'
   color: 'blue-grey-600'
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
