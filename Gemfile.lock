@@ -218,9 +218,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-coffeescript
   jekyll-feed (~> 0.6)
   jekyll-paginate
-  jekyll-theme-cayman
   kramdown
   pygments.rb
 

@@ -13,32 +13,45 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Joker Solutions - BlogEdit
+email: smzb@mitos-kalandiel.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-tagline: JokerSolutions BlogEdit
+  Joker Solutions BlogEdit : a blog editor for the 21st century
+tagline: JokerSolutions - BlogEdit
 baseurl: "/BlogEdit" # the subpath of your site, e.g. /blog
 url: "https://jokersolutions.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+
+twitter_username: smeierzubiesen
+github_username:  jokersolutions
 
 # Build settings
 markdown: kramdown
-#theme: minima
-theme: jekyll-theme-cayman
+theme: 'blue-pink'
+
 plugins:
   - jekyll-feed
 
-paginate: 1
-author:
- name: Sebastian Meier zu Biesen
- url: https://www.mitos-kalandiel.me
+paginate: 5
+paginate_path: "page/:num"
+highlighter: pygments
+
+author: Sebastian Meier zu Biesen
+bio: A German Scotsman DevOps specialist
+#disqus: (disqus shortname)
 
 gems:
   - jekyll-paginate
+  - jekyll-coffeescript
+
+drawer:
+  text_color: 'grey-600'
+  header_color: 'blue-500'
+  navigation_color: 'grey-200'
+
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
